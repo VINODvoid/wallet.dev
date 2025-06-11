@@ -428,7 +428,7 @@ const WalletGenerator = () => {
               gridView ? "md:grid-cols-2 lg:grid-cols-3" : ""
             }`}
           >
-            {wallets.map((wallet: any, index: number) => (
+            {wallets.map((wallet: Wallet, index: number) => (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: -20 }}
